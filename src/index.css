@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap");
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.styled-container {
+  padding-top: var(--app-shell-header-height);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.burger {
+  --burger-color: var(--mantine-color-white) !important;
+}
+
+.icon {
+  &.fs-12 {
+    width: rem(12);
+    height: rem(12);
+  }
+  &.fs-16 {
+    width: rem(16);
+    height: rem(16);
+  }
+  &.fs-18 {
+    width: rem(18);
+    height: rem(18);
+  }
+  &.fs-20 {
+    width: rem(20);
+    height: rem(20);
+  }
+  &.fs-22 {
+    width: rem(22);
+    height: rem(22);
+  }
+  &.fs-24 {
+    width: rem(24);
+    height: rem(24);
+  }
+  &.fs-50 {
+    width: rem(50);
+    height: rem(50);
+  }
+}
+
+.title {
+  color: var(--mantine-color-brand-7);
+}
+
+.cafe-menu {
+  margin-bottom: 2rem;
+
+  & .sub-title {
+    padding-left: 3.7rem;
+  }
+  & .timing {
+    margin-bottom: 2rem;
+  }
+  & .list {
+    margin-left: 2.5rem;
+  }
+}
